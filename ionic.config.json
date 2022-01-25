@@ -1,0 +1,8 @@
+{
+  "name": "party-app-angular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "6736f968"
+}
