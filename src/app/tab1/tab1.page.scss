@@ -1,0 +1,189 @@
+img {
+    height: 100%;
+    width: 100%;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.card {
+    z-index:1;
+    background-color: #151515;
+}
+
+.overlay {
+    color: white;
+    position: absolute;
+    height: 35%;
+    z-index: 2;
+}
+
+.ion-text-center {
+    margin: 19vw;
+    font-size: 11vw;
+    font-family: Söhne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    opacity: 75%;
+
+    animation: fadeInText 3s;
+    -webkit-animation: fadeInText 3s;
+    -moz-animation: fadeInText 3s;
+    -o-animation: fadeInText 3s;
+    -ms-animation: fadfadeInTexteIn 3s;
+}
+
+@keyframes fadeInText {
+    0% {opacity:0;}
+    100% {opacity:0.75;}
+}
+
+@-moz-keyframes fadeInText {
+    0% {opacity:0;}
+    100% {opacity:0.75;}
+}
+
+@-webkit-keyframes fadeInText {
+    0% {opacity:0;}
+    100% {opacity:0.75;}
+}
+
+@-o-keyframes fadeInText {
+    0% {opacity:0;}
+    100% {opacity:0.75;}
+}
+@-ms-keyframes fadeInText {
+    0% {opacity:0;}
+    100% {opacity:0.75;}
+}
+
+.footer {
+    color: white;
+    position: absolute;
+    height: 35%;
+    z-index: 2;
+}
+
+.footer-text {
+    text-align: center !important;
+    margin-top: 63vw;
+    margin-left: 29vw;
+    font-size: 4vw;
+    font-family: Söhne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    opacity: 0;
+    z-index: 3;
+
+    animation-name: fadeInText;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: fadeInText;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: fadeInText;
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 1.5s;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-name: fadeInText;
+    -o-animation-duration: 3s;
+    -o-animation-delay: 1.5s;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-name: fadeInText;
+    -ms-animation-duration: 3s;
+    -ms-animation-delay: 1.5s;
+    -ms-animation-fill-mode: forwards;
+}
+
+.footer-text2 {
+    text-align: center !important;
+    margin-top: 79vw;
+    margin-left: 29.9vw;
+    font-size: 4vw;
+    font-family: Söhne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    opacity: 0;
+    z-index: 3;
+
+    animation-name: fadeInText;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: fadeInText;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: fadeInText;
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 3s;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-name: fadeInText;
+    -o-animation-duration: 3s;
+    -o-animation-delay: 3s;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-name: fadeInText;
+    -ms-animation-duration: 3s;
+    -ms-animation-delay: 3s;
+    -ms-animation-fill-mode: forwards;
+}
+
+.credits {
+    color: white;
+    position: absolute;
+    height: 35%;
+    z-index: 4;
+}
+
+.credits-text {
+    text-align: center !important;
+    margin-top: 127vw;
+    margin-left: 80vw;
+    font-size: 2vw;
+    font-family: Söhne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    opacity: 0;
+    z-index: 5;
+
+    animation-name: fadeInText;
+    animation-duration: 3s;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: fadeInText;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 4.5s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: fadeInText;
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 4.5s;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-name: fadeInText;
+    -o-animation-duration: 3s;
+    -o-animation-delay: 4.5s;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-name: fadeInText;
+    -ms-animation-duration: 3s;
+    -ms-animation-delay: 4.5s;
+    -ms-animation-fill-mode: forwards;
+}
